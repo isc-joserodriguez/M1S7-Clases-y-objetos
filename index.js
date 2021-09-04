@@ -49,20 +49,7 @@ arreglo[0]
 2=> Roberto
  */
 
-let perro = {
-    "nombre": "Firulais",
-    raza: "Labrador",
-    edad: 10,
-    "tipo sangre": "O",
-    trucos: ['Dar patita', 'Acostarse', 'Sentarse', 'Dar la vuelta'],
-    "Salud dental": {
-        "Diente 1": "Correcto",
-        "Diente 2": "Caries"
-    },
-    5: 'Hoola'
-};
-
-let perros=[
+let perros = [
     {
         "nombre": "Firulais",
         raza: "Labrador",
@@ -173,11 +160,29 @@ let perros=[
     }
 ];
 
+let perro = {
+    "nombre": "Firulais",
+    raza: "Labrador",
+    edad: 10,
+    "tipo sangre": "O",
+    trucos: ['Dar patita', 'Acostarse', 'Sentarse', 'Dar la vuelta'],
+    "Salud dental": {
+        "Diente 1": "Correcto",
+        "Diente 2": "Caries"
+    },
+    5: 'Hoola'
+};
 console.log(perro);
 console.log(perro.raza);
 console.log(perro["raza"]);
 let variable = "raza";
 console.log(perro[variable]);
+
+//Asignación de valor
+let variable2 = "edad";
+perro[variable2] = "Diez años";
+perro.edad = 12
+perro["edad"] = "Otro valor";
 
 /*
 JSON
@@ -185,4 +190,4 @@ JavaScript Object Notation
 */
 
 
-let objeto={};
+let objeto = {};
