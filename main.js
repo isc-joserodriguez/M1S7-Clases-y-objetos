@@ -26,4 +26,4 @@ function fizzbuzz() {
     }
 }
 
-/* var mensaje = 'Hola'; */
+/*  var mensaje = 'Hola'; */
